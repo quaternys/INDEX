@@ -32,7 +32,7 @@
   - インターネット・分散システム：IP，P2P，ブロックチェーン，暗号理論
   - ウェブサイエンス：HTML/CSS/JS，データベース，スクレイピング
 - 認知科学
-  - ニューラルネットワーク：Perceptron, BP, Neocognitron, CNN, RNN, SOM
+  - ニューラルネットワーク：Perceptron, BP, Neocognitron, CNN, RNN, HFN/Bortzmann machine, SOM
   - 脳波：律動，ERP (P300, ERD)，FC，BCI
 - 信号処理・時系列データ
   - 確率過程
