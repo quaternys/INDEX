@@ -20,7 +20,7 @@
   - 次元削減：次元の呪い・多重共線性，変数選択（stepwise法），PCA，t-SNE, Autoencoder
   - 回帰：線形回帰，多項式回帰，Logistic回帰，Lasso回帰，Ridge回帰，Elastic net
   - 分類：k-NN/k*-NN，LDA，SVM，決定木
-  - 評価：決定係数，二乗誤差，混同行列，交差エントロピー，交差検証, CPCV
+  - 評価：決定係数，二乗誤差，混同行列，交差エントロピー，交差検証，CPCV
   - 最適化：LP/DP，グリッドサーチ，ラグランジュ未定乗数法，最小二乗法，勾配降下法(SGD/Momentum/Adagrad/RMSprop/Adam)，進化計算(GA/CMA-ES/Bi-level GA)，Q学習
 - アルゴリズム
   - 探索：線形探索・二分探索，幅優先探索・深さ優先探索，ゲーム理論・minimax探索・MCTS
@@ -32,15 +32,15 @@
   - インターネット・分散システム：IP，P2P，ブロックチェーン，暗号理論
   - ウェブサイエンス：HTML/CSS/JS，データベース，スクレイピング
 - 認知科学
-  - ニューラルネットワーク：Perceptron, BP, Neocognitron, CNN, RNN, HFN/Bortzmann machine, SOM
+  - ニューラルネットワーク：Perceptron, BP, HFN/Bortzmann machine, SOM, Neocognitron, CNN, RNN, GNN
   - 脳波：律動，ERP (P300, ERD)，FC，BCI
 - 信号処理・時系列データ
   - 確率過程
   - 周波数解析：FT, DCT, WT, EMD, HHT
   - フィルタ：IIR/FIR
-  - ノイズ除去：ノイズ・品質測定，平均値フィルタ，中央値フィルタ，畳み込みフィルタ・加重平均値フィルタ，Gaussianフィルタ，バイラテラルフィルタ，非局所平均値フィルタ
-  - パターン認識：加算平均，DTW
+  - ノイズ除去：ノイズ・品質評価，平均値フィルタ，中央値フィルタ，畳み込みフィルタ・加重平均値フィルタ，Gaussianフィルタ，バイラテラルフィルタ，非局所平均値フィルタ，周波数フィルタ（ノッチフィルタ・バンドパスフィルタ）
   - 信号源分離：ICA
+  - パターン認識：加算平均，DTW
   - Fintech
 - 非構造化データ
   - 画像処理：画像認識，画像生成，輪郭抽出（微分フィルタ，メキシカンハットフィルタ，Gaborフィルタ）
