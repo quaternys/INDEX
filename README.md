@@ -1,7 +1,7 @@
 # 概要
 CS学徒なら当然こいつら全部説明できるよね？？
 
-･･････と，言われたときに迷いなくYESと答えられるようにするための知識まとめです．
+･･････と，言われたときに迷いなくYESと答えるための知識まとめです．
 
 - 線型代数学
   - 線型空間・線型変換
@@ -21,12 +21,12 @@ CS学徒なら当然こいつら全部説明できるよね？？
   - 推定：大数の法則・中心極限定理，信頼区間
 - 機械学習
   - クラスター分析：階層型クラスター分析，k-means法・k-means++法，GMM
-  - 次元削減：次元の呪い・多重共線性，変数選択（stepwise法），PCA，MDS，t-SNE, Autoencoder
-  - 回帰：線形回帰，多項式回帰，Logistic回帰，Lasso回帰，Ridge回帰，Elastic net
+  - 次元削減：次元の呪い・多重共線性，変数選択（stepwise法），PCA，MDS，t-SNE，Autoencoder
+  - 回帰：線形回帰，多項式回帰，Logistic回帰，Lasso回帰，Ridge回帰，Elastic net，RBF
   - 分類：k-NN/k*-NN，LDA，SVM，決定木
   - 評価：決定係数，二乗誤差，混同行列，ROC AUC，交差エントロピー，交差検証，CPCV
-  - 最適化：LP/DP，グリッドサーチ，Lagrange未定乗数法，最小二乗法，勾配降下法(SGD/Momentum/Adagrad/RMSprop/Adam)，進化計算(GA/CMA-ES/Bi-level GA)
-    - 強化学習：Q学習, DQN, Rainbow
+  - 最適化：LP/DP，グリッドサーチ，Lagrange未定乗数法，最小二乗法，正則化，勾配降下法(SGD/Momentum/Adagrad/RMSprop/Adam)，バッチ学習，進化計算(GA/CMA-ES/Bi-level GA)
+    - 強化学習：Q学習, DQN, Rainbow, AlphaZero, NNUE
     - ゲーム理論：二人零和有限確定完全情報ゲーム，ナッシュ均衡・囚人のジレンマ
 - アルゴリズム
   - 探索：線形探索・二分探索，幅優先探索・深さ優先探索，minimax探索・MCTS
