@@ -15,7 +15,7 @@ CS学徒なら当然こいつら全部説明できるよね？？
   - グラフ信号処理：中心性，PageRank，スペクトルグラフ理論
   - 推薦システム：協調フィルタリング
 - 統計学・データサイエンス
-  - 確率分布：分布関数，期待値・統計量，一様分布・正規分布・二項分布・Poisson分布・指数分布・t分布
+  - 確率分布：分布関数，期待値・統計量，一様分布・正規分布・t分布・カイ二乗分布・F分布・二項分布・Poisson分布・指数分布
   - 多変量解析：同時確率・i.i.d.，ベイズ統計，共分散・相関係数・KL情報量，多様体
   - 仮説検定：母平均の差の検定（t検定），正規性の検定，等分散性の検定（F検定），独立性・適合度の検定（カイ二乗検定），母比率の差の検定（z検定）
   - 推定：大数の法則・中心極限定理，信頼区間
@@ -24,19 +24,19 @@ CS学徒なら当然こいつら全部説明できるよね？？
   - 次元削減：次元の呪い・多重共線性，変数選択（stepwise法），PCA，MDS，t-SNE，Autoencoder
   - 回帰：線形回帰，多項式回帰，Logistic回帰，Lasso回帰，Ridge回帰，Elastic net，RBF
   - 分類：k-NN/k*-NN，LDA，SVM，決定木
-  - 評価：決定係数，二乗誤差，混同行列，ROC AUC，交差エントロピー，交差検証，CPCV
-  - 最適化：LP/DP，グリッドサーチ，Lagrange未定乗数法，最小二乗法，正則化，勾配降下法(SGD/Momentum/Adagrad/RMSprop/Adam)，バッチ学習，進化計算(GA/CMA-ES/Bi-level GA)
+  - 評価：決定係数，二乗誤差，S/N比，混同行列，ROC AUC，交差エントロピー，交差検証，CPCV
+  - 最適化：LP/DP，グリッドサーチ，Lagrange未定乗数法，最小二乗法，正則化，勾配降下法(SGD/Momentum/Adagrad/RMSprop/Adam)，バッチ学習，BP，進化計算(GA/CMA-ES/Bi-level GA)，FEP
     - 強化学習：Q学習, DQN, Rainbow, AlphaZero, NNUE
-    - ゲーム理論：二人零和有限確定完全情報ゲーム，ナッシュ均衡・囚人のジレンマ
+    - ゲーム理論：囚人のジレンマ，ナッシュ均衡・パレート最適，二人零和有限確定完全情報ゲーム
 - アルゴリズム
-  - 探索：線形探索・二分探索，幅優先探索・深さ優先探索，minimax探索・MCTS
+  - 探索：線形探索・二分探索，幅優先探索・深さ優先探索，minimax探索・枝刈り・MCTS
   - ソート：選択ソート，バブルソート，クイックソート，マージソート，トポロジカルソート・Kahn's algorithm
   - 数値計算：乱数，連立1次方程式（Gaussの消去法，LU分解法，Gauss-Seidel法，Gauss-Jordan法），数値微分・数値積分
   - 並列計算
   - カオス・フラクタル・シミュレーション
 - OS・通信インフラ
   - CPU/GPU/量子コンピューティング，メモリ，OS，機械語・アセンブリ言語・プログラミング
-  - インターネット・分散システム：IP，P2P，ビザンチン問題，ブロックチェーン，暗号理論
+  - インターネット・分散システム：IP，P2P，ビザンチン問題，ブロックチェーン，暗号理論，衛星通信
   - ウェブ：HTML/CSS/JS，データベース(SQL, NoSQL)，スクレイピング
 - 信号処理・時系列データ
   - 確率過程
@@ -47,16 +47,18 @@ CS学徒なら当然こいつら全部説明できるよね？？
   - Fintech
 - 非構造化データ
   - 画像処理：画像認識，画像生成，輪郭抽出（微分フィルタ，メキシカンハットフィルタ，Gaborフィルタ）
-    - モデル：Neocognitron, CNN, AlexNet, ResNet
+    - モデル：Neocognitron, CNN, AlexNet, VGG, ResNet, U-Net, ViT
   - 自然言語処理：言語モデル，ネガポジ判定，文章生成（翻訳，対話）
-    - モデル：RNN, LSTM, GRU, Transformer, BERT, GPT
+    - モデル：RNN, LSTM, GRU, Transformer/Self-Attention, BERT, GPT
   - 音声処理：音声認識，音声合成
     - モデル：formant, cepstrum, LPC
   - グラフ信号処理：ノード分類，エッジ分類，グラフ分類
-    - モデル：Spectral network, ChebNet, GCN, MPNN
+    - モデル：Spectral network, ChebNet, GCN, MPNN, GAT
   - 生成モデル・マルチモーダルAI・AGI
-    - AE, VAE, GAN, Diffusion model, CLIP, Stable Diffusion
-    - Seq2seq, Transformer, GPT, ChatGPT
+    - AE, VAE, GAN, Flow, DDPM, LDM, CLIP
+    - Seq2seq, Transformer, GPT, InstructGPT, PaLM
+    - ChatGPT, Bard, LLaMA
 - 認知科学
-  - 認知神経科学：Perceptron, BP, HFN/Bortzmann machine, SOM, Neocognitron, SNN, FEP, FC
+  - 認知神経科学：Perceptron, HFN/Bortzmann machine, SOM, Neocognitron, SNN, FEP, FC
   - 脳波：律動，ERP (P300, ERD)，BCI
+  - 知能数理：群知能，自動運転，ロボティクス
