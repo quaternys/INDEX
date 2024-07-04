@@ -5,10 +5,9 @@ Reference: Llama 2 (Meta, 2023/07)
 https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
 """
 
-import torch
-from dataclasses import dataclass
+import torch, dataclasses
 
-@dataclass
+@dataclasses.dataclass
 class ModelArgs:
     V:              int = -1
     n_layers:       int = 6     # 32
@@ -52,10 +51,10 @@ class Attention(torch.nn.Module):
         xq, xk = self.apply_rotary_emb(xq, xk, freqs_cis)
         
         # Scaled dot-product
-        xq = xq.transpose(1, 2) # (bs, n_heads, seqlen, head_dim)
+        xq = xq.transpose(1, 2) # (bsz, n_heads, seqlen, head_dim)
         xk = xk.transpose(1, 2)
         xv = xv.transpose(1, 2)
-        scores = xq @ xk.transpose(2, 3) / self.head_dim**0.5
+        scores = xq @ xk.transpose(2, 3) * self.head_dim**-0.5
         if mask is not None:
             scores += mask
         scores = scores.float().softmax(-1).type_as(xq)

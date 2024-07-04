@@ -27,7 +27,7 @@ class Attention(torch.nn.Module):
 
     def forward(self, x, mask=None):    # (bsz, seqlen, dim)
         Q, K, V = [f(x).view(*x.shape[:-1], self.n_heads, -1).transpose(1, 2) for f in self.fcs[:-1]]
-        scores = Q @ K.transpose(-2, -1) / Q.shape[-1]**0.5 # (bsz, n_heads, seqlen, seqlen)
+        scores = Q @ K.transpose(-2, -1) * Q.shape[-1]**-0.5    # (bsz, n_heads, seqlen, seqlen)
         if mask is not None:
             scores += mask
         out = scores.softmax(-1) @ V    # (bsz, n_heads, seqlen, head_dim)
