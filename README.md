@@ -56,9 +56,9 @@ CS学徒なら当然こいつら全部説明できるよね？？
     - モデル：Spectral network, ChebNet, GCN, MPNN, GAT
   - 生成モデル・マルチモーダルAI・AGI
     - AE, VAE, GAN, Flow, DDPM, LDM, CLIP
-    - Seq2seq, Transformer, GPT, InstructGPT, PaLM
+    - Transformer, GPT, InstructGPT, PaLM
     - ChatGPT, Bard, LLaMA
 - 認知科学
-  - 認知神経科学：Perceptron, HFN/Bortzmann machine, SOM, Neocognitron, SNN, FEP, FC
+  - 神経科学：Perceptron, HFN/Bortzmann machine, SOM, Neocognitron, SNN, FEP, FC
   - 脳波：律動，ERP (P300, ERD)，BCI
   - 知能数理：群知能，自動運転，ロボティクス
